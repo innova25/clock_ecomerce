@@ -667,7 +667,7 @@
 
                                             <form id="add-item-form" class="variants clearfix" action="addtocart">
                                                 <input type="hidden" name="id" value="${p.id}"/>
-                                                
+
                                                 <!--<c:if test="${account != null }">
                                                     <div class="row">
                                                         <button type="submit" class="btn col-lg-6 col-md-12 col-sm-6 col-12">Thêm vào giỏ</button>
@@ -677,7 +677,7 @@
                                                 <c:if test="${account != null }">
                                                     <div class="select-wrapper ">
                                                         <label>Số lượng</label>
-                                                        <input id="quantity" type="number" name="quantity" min="1" class="tc item-quantity" required=""/>
+                                                        <input id="quantity" type="number" name="quantity" min="1" required class="tc item-quantity" />
                                                     </div>
                                                     <div class="row">
                                                         <button type="submit" class="btn col-lg-6 col-md-12 col-sm-6 col-12">Thêm vào giỏ</button>
@@ -689,10 +689,17 @@
                                                 function redirectToCheckout() {
                                                 var quantity = document.getElementById('quantity').value;
                                                 var productId = "${p.id}";
+                                                if (!quantity) {
+                                                // Hiển thị cảnh báo nếu quantity trống
+                                                alert('Vui lòng nhập số lượng');
+                                                // Đặt lại focus vào trường input
+                                                quantityInput.focus();
+                                                return; // Ngăn chặn chuyển hướng
+                                                }
                                                 // Tạo đường link checkout với tham số số lượng và ID sản phẩm
                                                 var checkoutLink = "buynow?quantity=" + encodeURIComponent(quantity) + "&id=" + encodeURIComponent(productId);
                                                 // Chuyển hướng đến trang checkout
-                                                window.location.href = checkoutLink;
+                                                window.location.href = "/prj302/checkout";
                                                 }
                                             </script>
                                         </div>
@@ -824,7 +831,7 @@
                             $(window).trigger('resize');
                             });
                             <script>
-                            $(document).ready(function () {
+                $(document).ready(function () {
                                     if ($(".slides .product-thumb").length > 4) {
                             $('#sliderproduct').flexslider({
                             animation: "slide",
@@ -996,8 +1003,8 @@
                             js.id = id;
                             js.src = "/prj302/assets/connect.facebook.net/sdk.js#xfbml=1&appId=263266547210244&version=v2.0";
                             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-        </script>
+            }(document, 'script', 'facebook-jssdk'));
+                </script>
 
                                             </div>
                                         </div>
