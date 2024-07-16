@@ -339,7 +339,7 @@
                             <div class="col-lg-7 hidden-md hidden-sm hidden-xs">
                                 <aside class="top-info">
                                     <div class="cart-info hidden-xs">
-                                        <a class="cart-link" href="#">			
+                                        <a class="cart-link" href="/prj302/thongtintaikhoan.jsp">			
                                             <span class="icon-cart">
                                                 <div><img src="/prj302/assets/product.hstatic.net/a1.jpg" alt="" /></div>
                                             </span> 
@@ -359,7 +359,7 @@
                                                     </c:if>
                                                     <c:if test="${account != null }">
                                                     <li><a class="reg" href="logoutclient" title="Đăng xuất">ĐĂNG XUẤT</a></li>
-                                                    <li><a class="log" href="/prj302/admin.thongtintaikhoan.jsp" title="Hồ sơ">HỒ SƠ</a></li>
+                                                    <li><a class="log" href="/prj302/thongtintaikhoan.jsp" title="Hồ sơ">HỒ SƠ</a></li>
                                                     </c:if>
 
                                             </ul>
@@ -643,7 +643,7 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                         <aside class="styled_header  use_icon ">
-                                            <h3>SỐ LƯỢNG SẢN PHẨM BÁN ĐƯỢC THEO THÁNG NĂM 2023</h3>
+                                            <h3>SỐ LƯỢNG SẢN PHẨM BÁN ĐƯỢC THEO THÁNG NĂM 2024</h3>
                                             <span class="icon" id="chartToggle"><img src="/prj302/assets/theme.hstatic.net/icon_featured.png?v=90" alt=""></span>
                                         </aside>
                                     </div>
@@ -755,7 +755,7 @@
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <aside class="styled_header  use_icon ">
-                                        <h3>DOANH THU THEO THÁNG NĂM 2023</h3>
+                                        <h3>DOANH THU THEO THÁNG NĂM 2024</h3>
                                         TỔNG DOANH THU:<h3 style="color: red">${total} VND</h3>
                                         <span class="icon" id="chartToggle1"><img src="/prj302/assets/theme.hstatic.net/icon_featured.png?v=90" alt=""></span>
                                     </aside>

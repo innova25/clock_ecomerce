@@ -598,12 +598,12 @@
                                         </div>
                                         <ul class="nav navs sidebar menu" id='cssmenu'>		
                                             <li class="item  first">
-                                                <a href="/collections/onsale">
+                                                <a href="#">
                                                     <span>Sản phẩm khuyến mãi</span>
                                                 </a>
                                             </li>
                                             <li class="item  ">
-                                                <a href="/collections/hot-products">
+                                                <a href="#">
                                                     <span>Sản phẩm nổi bật</span>
                                                 </a>
                                             </li>
@@ -760,14 +760,14 @@
                                                                 <div class="product-sale" >
                                                                     <span><label class="sale-lb">- </label> ${l.discount}%</span></form>
                                                                 </div>
-                                                                <a href="/products/dong-ho-nam-skmei-kim-xanh-duong" title="${l.name}">
+                                                                <a href="#" title="${l.name}">
                                                                     <img class ="first-image has-img" src="/prj302/assets/product.hstatic.net/${l.listimg[0].link}"  />
                                                                     <img class ="second-image"        src="/prj302/assets/product.hstatic.net/${l.listimg[1].link}"  />
                                                                 </a>
                                                             </div>
                                                             <div class="product-detail clearfix">
                                                                 <!-- sử dụng pull-left -->
-                                                                <h3 class="pro-name"><a href="/products/dong-ho-nam-skmei-kim-xanh-duong" title="ĐỒNG HỒ NAM SKMEI KIM XANH DƯƠNG">${p.name} </a></h3>
+                                                                <h3 class="pro-name"><a href="#" title="ĐỒNG HỒ NAM SKMEI KIM XANH DƯƠNG">${p.name} </a></h3>
                                                                 <div class="pro-prices">	
                                                                     <p class="pro-price">${l.newprice}đ</p>
                                                                     <p class="pro-price-del text-left"><del class="compare-price">${l.price}₫</del></p>	

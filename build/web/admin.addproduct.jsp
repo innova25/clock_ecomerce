@@ -109,7 +109,7 @@
     </head>
     <body>
         <div id="login-container" >
-            <h2>Product information</h2>
+            <h2></h2>
             <form action="adminaddproduct" method="post">
                 TypeProduct:<select name="typeproduct"><br>
                     <option value="1">Đồng hồ Tevise</option>

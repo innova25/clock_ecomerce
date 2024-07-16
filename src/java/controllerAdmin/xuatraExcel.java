@@ -53,7 +53,7 @@ public class xuatraExcel extends HttpServlet {
         Random rn = new Random();
         int range = maximum - minimum + 1;
         int randomNum = rn.nextInt(range) + minimum;
-        FileOutputStream file = new FileOutputStream("C:\\Excelok\\" + "danhsachnguoidung" + ngayxuat + "-" + Integer.toString(randomNum) + ".xlsx");
+        FileOutputStream file = new FileOutputStream("D:\\" + "danhsachnguoidung" + ngayxuat + "-" + Integer.toString(randomNum) + ".xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet workSheet = workbook.createSheet("1");
         XSSFRow row;

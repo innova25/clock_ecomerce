@@ -70,7 +70,7 @@
             //]]>
         </script>
         <noscript>
-    <img height='1' width='1' style='display: none' src='https://www.facebook.com/tr?id=905600829489553&amp;ev=PageView&amp;noscript=1' /></noscript>
+    <img height='1' width='1' style='display: none' src='#' /></noscript>
     <script type='text/javascript'>
 //<![CDATA[
         if ((typeof Haravan) === 'undefined') {
@@ -386,17 +386,17 @@
                                     <div class="col-lg-12 col-md-12 col-sm-7 col-xs-7">
                                         <!-- LOGO -->
                                         <h1>
-                                            <a href="http://happylive.vn">
+                                            <a href="/prj302/product">
                                                 <img src="/prj302/assets/theme.hstatic.net/logo.png?v=90" alt="Happylive" class="img-responsive logoimg"/>
                                             </a>
                                         </h1>
                                         <h1 style="display:none">
-                                            <a href="/">Happylive</a>
+                                            <a href="#">Happylive</a>
                                         </h1>
                                     </div>
                                     <div class="hidden-lg hidden-md col-sm-5 col-xs-5 mobile-icons" >
                                         <div>
-                                            <a href="cartcontroller" title="Xem giỏ hàng" class="mobile-cart"><span>${sessionScope.carts.size()}</span></a>
+                                            <a href="#" title="Xem giỏ hàng" class="mobile-cart"><span>${sessionScope.carts.size()}</span></a>
                                             <a href="#" id="mobile-toggle"><i class="fa fa-bars"></i></a>
                                         </div>
                                     </div>
@@ -562,17 +562,17 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="/pages/dich-vu" class="" title="Dịch vụ">
+                                        <a href="/prj302/product" class="" title="Dịch vụ">
                                             <span>Dịch vụ</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/pages/gioi-thieu" class="" title="Giới thiệu">
+                                        <a href="/prj302/product" class="" title="Giới thiệu">
                                             <span>Giới thiệu</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/blogs/news" class="" title="Blog">
+                                        <a href="/prj302/product" class="" title="Blog">
                                             <span>Blog</span>
                                         </a>
                                     </li>
@@ -630,7 +630,7 @@
                         <div class="hrvslider">
                             <ul class="slides">
                                 <li>
-                                    <a href="/collections/dong-ho-nam-rolex" class="hrv-url">
+                                    <a href="#" class="hrv-url">
                                         <img class="img-responsive" src="/prj302/assets/theme.hstatic.net/slideshow_1.jpg?v=90" alt="Thời trang nam" />
                                     </a>
                                     <div id="hrv-banner-caption1" class="hrv-caption hrv-banner-caption">
@@ -639,14 +639,14 @@
                                                 <div class="hrv-banner-content slider-1">
                                                     <h2 class="hrv-title1" >Đẳng cấp về thương hiệu</h2>						
                                                     <h3 class="hrv-title2">ĐỒNG HỒ TEVISE</h3>			
-                                                    <a href="/collections/dong-ho-nam-rolex" class="hrv-url">Xem ngay</a>
+                                                    <a href="#" class="hrv-url">Xem ngay</a>
                                                 </div>	
                                             </div>
                                         </div>
                                     </div>			
                                 </li>
                                 <li>
-                                    <a href="/collections/dong-ho-nam-tissot" class="hrv-url">
+                                    <a href="#" class="hrv-url">
                                         <img class="img-responsive" src="/prj302/assets/theme.hstatic.net/slideshow_2.jpg?v=90" alt="" />
                                     </a>
                                     <div id="hrv-banner-caption2" class="hrv-caption hrv-banner-caption">
@@ -655,14 +655,14 @@
                                                 <div class="hrv-banner-content slider-2">
                                                     <h2 class="hrv-title1" >Tinh tế sang trọng</h2>						
                                                     <h3 class="hrv-title2">ĐỒNG HỒ TISSOT</h3>			
-                                                    <a href="/collections/dong-ho-nam-tissot" class="hrv-url">Xem ngay</a>
+                                                    <a href="#" class="hrv-url">Xem ngay</a>
                                                 </div>	
                                             </div>
                                         </div>
                                     </div>			
                                 </li>
                                 <li>
-                                    <a href="/collections/cap-dong-ho-tinh-yeu" class="hrv-url">
+                                    <a href="#" class="hrv-url">
                                         <img class="img-responsive" src="/prj302/assets/theme.hstatic.net/slideshow_3.jpg?v=90" alt="" />
                                     </a>
                                     <div id="hrv-banner-caption3" class="hrv-caption hrv-banner-caption">
@@ -671,7 +671,7 @@
                                                 <div class="hrv-banner-content slider-3">
                                                     <h2 class="hrv-title1" >Món quà hạnh phúc</h2>						
                                                     <h3 class="hrv-title2">Tiết kiệm đến 50%</h3>			
-                                                    <a href="/collections/cap-dong-ho-tinh-yeu" class="hrv-url">Xem ngay</a>
+                                                    <a href="#" class="hrv-url">Xem ngay</a>
                                                 </div>	
                                             </div>
                                         </div>
@@ -1005,15 +1005,15 @@
                                             </li>
 
                                             <li>
-                                                <a href="/prj302/dichvu">Dịch vụ</a>
+                                                <a href="/prj302/product">Dịch vụ</a>
                                             </li>
 
                                             <li>
-                                                <a href="/prj302/gioithieu">Giới thiệu</a>
+                                                <a href="/prj302/product">Giới thiệu</a>
                                             </li>
 
                                             <li>
-                                                <a href="/prj302/news">Blog</a>
+                                                <a href="/prj302/product">Blog</a>
                                             </li>
 
                                         </ul>

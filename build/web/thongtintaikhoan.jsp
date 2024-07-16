@@ -175,7 +175,7 @@
     <p>${di.username}</p>
     <nav id="menu-mobile" class="hidden" >
         <ul>
-            <li><a href="/prj302/product">Trang chủ</a></li>
+            <li><a href="/prj302/adminhome">Trang chủ</a></li>
 
             <li class="has-children">
                 <a href="/collections/dong-ho-nam">Đồng hồ nam</a>
@@ -237,7 +237,7 @@
 
 
 
-            <li><a href="/pages/dich-vu">Dịch vụ</a></li>
+<!--            <li><a href="/pages/dich-vu">Dịch vụ</a></li>
 
 
 
@@ -245,7 +245,7 @@
 
 
 
-            <li><a href="/blogs/news">Blog</a></li>
+            <li><a href="/blogs/news">Blog</a></li>-->
 
 
 
@@ -497,7 +497,7 @@
                             <div class="col-lg-7 hidden-md hidden-sm hidden-xs">
                                 <aside class="top-info">
                                     <div class="cart-info hidden-xs">
-                                        <a class="cart-link" href="#">			
+                                        <a class="cart-link" href="/prj302/thongtintaikhoan.jsp">			
                                             <span class="icon-cart">
                                                 <img src="/prj302/assets/product.hstatic.net/a1.jpg" alt="" />
                                             </span>
@@ -536,7 +536,7 @@
                                     <div class="menu-logo">
 
                                         <h1 class="logo logo-mobile">
-                                            <a href="http://happylive.vn">
+                                            <a href="#">
                                                 <img src="/prj302/assets/theme.hstatic.net/logo.png?v=90" alt="Happylive" class="img-responsive logoimg"/>
                                             </a>
                                         </h1>	
@@ -588,7 +588,7 @@
 
 
                                     <li>
-                                        <a href="/prj302/product" class="" title="Trang chủ">
+                                        <a href="/prj302/adminhome" class="" title="Trang chủ">
                                             <span>Trang chủ</span>
                                         </a>
                                     </li>
@@ -662,7 +662,7 @@
 
 
 
-                                    <li>
+<!--                                    <li>
                                         <a href="/pages/dich-vu" class="" title="Dịch vụ">
                                             <span>Dịch vụ</span>
                                         </a>
@@ -682,7 +682,7 @@
                                         <a href="/blogs/news" class="" title="Blog">
                                             <span>Blog</span>
                                         </a>
-                                    </li>
+                                    </li>-->
 
 
                                 </ul>
@@ -889,15 +889,15 @@
                                             </li>
 
                                             <li>
-                                                <a href="/pages/dich-vu">Dịch vụ</a>
+                                                <a href="#">Dịch vụ</a>
                                             </li>
 
                                             <li>
-                                                <a href="/pages/gioi-thieu">Giới thiệu</a>
+                                                <a href="#">Giới thiệu</a>
                                             </li>
 
                                             <li>
-                                                <a href="/blogs/news">Blog</a>
+                                                <a href="#">Blog</a>
                                             </li>
 
                                         </ul>
